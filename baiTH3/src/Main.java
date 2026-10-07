@@ -9,7 +9,7 @@ public class Main {
         lop.addStudent(new Student("B25CQCC025", "Bình", 6, 3, 4));
 
         try {
-            lop.addStudent(new Student("B25CQCC036", "Toàn", 7, 7, 7));
+            lop.addStudent(new Student("B25CQCC047", "Toàn", 7, 7, 7));
         } catch (IllegalArgumentException e) {
             System.out.println("Loi: " + e.getMessage());
         }
